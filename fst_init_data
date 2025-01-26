@@ -1,0 +1,62 @@
+pivot_record = f1
+
+================================================================
+records= {f1, f2}
+
+Layer 0:
+Larger records: [], Smaller records: [], Type: Internal Node
+
+Layer 1:
+Larger records: [2], Smaller records: [], Type: Leaf Node
+Larger records: [], Smaller records: [2], Type: Leaf Node
+
+================================================================
+records= {f1, f2, f3}
+
+Layer 0:
+Larger records: [], Smaller records: [], Type: Internal Node
+
+Layer 1:
+Larger records: [2], Smaller records: [], Type: Internal Node
+Larger records: [], Smaller records: [3, 2], Type: Leaf Node
+
+Layer 2:
+Larger records: [2, 3], Smaller records: [], Type: Leaf Node
+Larger records: [2], Smaller records: [3], Type: Leaf Node
+
+================================================================
+records= {f1, f2, f3, f4}
+
+Layer 0:
+Larger records: [], Smaller records: [], Type: Internal Node
+
+Layer 1:
+Larger records: [4, 2], Smaller records: [], Type: Internal Node
+Larger records: [], Smaller records: [3, 2], Type: Internal Node
+
+Layer 2:
+Larger records: [4, 2, 3], Smaller records: [], Type: Leaf Node
+Larger records: [4, 2], Smaller records: [3], Type: Leaf Node
+Larger records: [4], Smaller records: [3, 2], Type: Leaf Node
+Larger records: [], Smaller records: [3, 2, 4], Type: Leaf Node
+
+================================================================
+records= {f1, f2, f3, f4, f5}
+
+Layer 0:
+Larger records: [], Smaller records: [], Type: Internal Node
+
+Layer 1:
+Larger records: [4, 2], Smaller records: [], Type: Internal Node
+Larger records: [], Smaller records: [3, 5, 2], Type: Internal Node
+
+Layer 2:
+Larger records: [4, 2, 5, 3], Smaller records: [], Type: Leaf Node
+Larger records: [4, 2], Smaller records: [3], Type: Internal Node
+Larger records: [4], Smaller records: [3, 5, 2], Type: Leaf Node
+Larger records: [], Smaller records: [3, 5, 2, 4], Type: Leaf Node
+
+Layer 3:
+Larger records: [4, 2, 5], Smaller records: [3], Type: Leaf Node
+Larger records: [4, 2], Smaller records: [3, 5], Type: Leaf Node
+
