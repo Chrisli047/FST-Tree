@@ -3,39 +3,39 @@ original_compute_vertex_time: 0.00011301040649414062
 remove_irrelevant_ineq_time: 0.00024199485778808594
 after_removal_compute_vertex_time: 1.4781951904296875e-05
 Number_irrelevant_ineq: 17
-speed_up: 1.150485
+speed_up: 7.645161
 
 n = 3
 original_compute_vertex_time: 0.00010704994201660156
 remove_irrelevant_ineq_time: 0.0002727508544921875
 after_removal_compute_vertex_time: 1.8835067749023438e-05
 Number_irrelevant_ineq: 16
-speed_up: 1.213514
+speed_up: 5.683544
 
 n = 4
 original_compute_vertex_time: 0.0001628398895263672
 remove_irrelevant_ineq_time: 0.0003058910369873047
 after_removal_compute_vertex_time: 3.314018249511719e-05
 Number_irrelevant_ineq: 14
-speed_up: 1.255515
+speed_up: 4.913669
 
 n = 5
 original_compute_vertex_time: 0.00019121170043945312
 remove_irrelevant_ineq_time: 0.0002980232238769531
 after_removal_compute_vertex_time: 3.790855407714844e-05
 Number_irrelevant_ineq: 13
-speed_up: 1.247278
+speed_up: 5.044025
 
 n = 6
 original_compute_vertex_time: 0.0003540515899658203
 remove_irrelevant_ineq_time: 0.0004391670227050781
 after_removal_compute_vertex_time: 0.00013303756713867188
 Number_irrelevant_ineq: 9
-speed_up: 1.601942
+speed_up: 2.661290
 
 n = 7
 original_compute_vertex_time: 0.00019693374633789062
 remove_irrelevant_ineq_time: 0.0003209114074707031
 after_removal_compute_vertex_time: 5.602836608886719e-05
 Number_irrelevant_ineq: 11
-speed_up: 1.398456
+speed_up: 3.515802
